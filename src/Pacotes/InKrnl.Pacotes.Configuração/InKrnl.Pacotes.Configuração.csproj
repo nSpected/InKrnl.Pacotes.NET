@@ -12,6 +12,11 @@
         <Copyright>InKrnl</Copyright>
         <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
         <PackageTags>Configuration</PackageTags>
+        <RepositoryUrl>https://github.com/nSpected/InKrnl.Pacotes.NET</RepositoryUrl>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DocumentationFile>bin\Release\InKrnl.Pacotes.Configuração.xml</DocumentationFile>
     </PropertyGroup>
 
     <ItemGroup>
